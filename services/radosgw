@@ -1,0 +1,3 @@
+#!/bin/sh
+
+radosgw -f -n client.radosgw.gateway
