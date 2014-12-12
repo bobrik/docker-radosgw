@@ -49,7 +49,7 @@ ceph-authtool -n client.radosgw.gateway --cap osd 'allow rwx' --cap mon 'allow r
 ceph -k /etc/ceph/ceph.client.admin.keyring auth add client.radosgw.gateway -i /etc/ceph/ceph.client.radosgw.keyring
 ```
 
-Add following to your `/etc/ceph.conf`:
+Add following to your `/etc/ceph/ceph.conf`:
 
 ```
 [client.radosgw.gateway]
