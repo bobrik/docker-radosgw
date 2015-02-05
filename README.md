@@ -91,3 +91,7 @@ to use `s3.rgw.ceph` as `<s3_host>`:
 
 This will also allow you to use bucket `whatever`. If you need more buckets,
 just add them to `/etc/hosts`.
+
+## Release history
+
+* `bobrik/radosgw:1.0` first versioned release.
